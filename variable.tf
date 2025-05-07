@@ -95,7 +95,7 @@ variable "ecr_repo" {
 variable "s3_bucket" {
   description = "Name of artifact bucket"
   type        = string
-  default     = "cicd-841398036278.codepipeline-artifacts.eu-west-1"
+  default     = "cicd-ID.codepipeline-artifacts.eu-west-1"
 }
 
 variable "buildspec_path" {
